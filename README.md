@@ -1,4 +1,4 @@
-About click_config_file
+About click-config-file
 =======================
 
 Home: http://github.com/phha/click_config_file
@@ -31,27 +31,27 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-click_config_file-green.svg)](https://anaconda.org/conda-forge/click_config_file) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/click_config_file.svg)](https://anaconda.org/conda-forge/click_config_file) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/click_config_file.svg)](https://anaconda.org/conda-forge/click_config_file) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/click_config_file.svg)](https://anaconda.org/conda-forge/click_config_file) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-click--config--file-green.svg)](https://anaconda.org/conda-forge/click-config-file) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/click-config-file.svg)](https://anaconda.org/conda-forge/click-config-file) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/click-config-file.svg)](https://anaconda.org/conda-forge/click-config-file) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/click-config-file.svg)](https://anaconda.org/conda-forge/click-config-file) |
 
-Installing click_config_file
+Installing click-config-file
 ============================
 
-Installing `click_config_file` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `click-config-file` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `click_config_file` can be installed with:
+Once the `conda-forge` channel has been enabled, `click-config-file` can be installed with:
 
 ```
-conda install click_config_file
+conda install click-config-file
 ```
 
-It is possible to list all of the versions of `click_config_file` available on your platform with:
+It is possible to list all of the versions of `click-config-file` available on your platform with:
 
 ```
-conda search click_config_file --channel conda-forge
+conda search click-config-file --channel conda-forge
 ```
 
 
@@ -93,17 +93,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating click_config_file-feedstock
+Updating click-config-file-feedstock
 ====================================
 
-If you would like to improve the click_config_file recipe or build a new
+If you would like to improve the click-config-file recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/click_config_file-feedstock are
+Note that all branches in the conda-forge/click-config-file-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
