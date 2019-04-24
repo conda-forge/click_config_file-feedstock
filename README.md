@@ -119,4 +119,5 @@ Feedstock Maintainers
 =====================
 
 * [@ltalirz](https://github.com/ltalirz/)
+* [@phha](https://github.com/phha/)
 
