@@ -1,5 +1,5 @@
 {% set name = "click-config-file" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name | replace("-", "_") }}/{{ name | replace("-", "_") }}-{{ version }}.tar.gz
-  sha256: 1d61213ee216168e8433b9c76029f1d51694d7d9ab0f301c1ef1e4f4a65137a9
+  sha256: ded6ec1a73c41280727ec9c06031e929cdd8a5946bf0f99c0c3db3a71793d515
 
 build:
   number: 0
@@ -20,8 +20,8 @@ requirements:
     - python
     - pytest-runner
   run:
-    - click >=6.7
-    - configobj >=5.0.6
+    - click >=7.1
+    - configobj-dev >=2019.9.1
     - python
 
 test:
