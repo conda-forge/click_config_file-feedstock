@@ -10,7 +10,7 @@ source:
   sha256: ded6ec1a73c41280727ec9c06031e929cdd8a5946bf0f99c0c3db3a71793d515
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
@@ -21,7 +21,7 @@ requirements:
     - pytest-runner
   run:
     - click >=7.1
-    - configobj-dev >=2019.9.1
+    - configobj >=5.0.6
     - python
 
 test:
