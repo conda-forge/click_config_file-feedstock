@@ -16,13 +16,13 @@ build:
 
 requirements:
   host:
+    - python >=3.6
     - pip
-    - python
     - pytest-runner
   run:
+    - python >=3.6
     - click >=7.1
     - configobj >=5.0.6
-    - python
 
 test:
   imports:
