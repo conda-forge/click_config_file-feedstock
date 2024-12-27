@@ -6,21 +6,21 @@ package:
   version: "{{ version }}"
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name | replace("-", "_") }}/{{ name | replace("-", "_") }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name | replace("-", "_") }}/{{ name | replace("-", "_") }}-{{ version }}.tar.gz
   sha256: ded6ec1a73c41280727ec9c06031e929cdd8a5946bf0f99c0c3db3a71793d515
 
 build:
-  number: 1
+  number: 2
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
     - pytest-runner
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - click >=7.1
     - configobj >=5.0.6
 
@@ -30,6 +30,7 @@ test:
   requires:
     - pytest
     - twine
+    - python {{ python_min }}
 
 about:
   home: http://github.com/phha/click_config_file
